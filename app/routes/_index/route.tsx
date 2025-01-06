@@ -9,6 +9,7 @@ export const loader = ({ request }: LoaderFunctionArgs) => {
 export default function HomePage() {
     return (
         <div className={styles.root}>
+            <h1>This is AWESOME</h1>
             <h2 className={styles.title}></h2>
         </div>
     );
