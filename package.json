@@ -18,7 +18,9 @@
     "classnames": "^2.5.1",
     "isbot": "^5.1.19",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "react-bootstrap": "^2.10.7",
+    "bootstrap": "^5.3.3"
   },
   "devDependencies": {
     "@remix-run/dev": "^2.15.2",
@@ -39,7 +41,8 @@
     "typescript": "^5.7.2",
     "vite": "^5.4.11",
     "vite-plugin-svgr": "^4.3.0",
-    "vite-tsconfig-paths": "^5.1.4"
+    "vite-tsconfig-paths": "^5.1.4",
+    "@codux-boards/react-bootstrap": "1.0.1"
   },
   "engines": {
     "node": ">=18.0.0"

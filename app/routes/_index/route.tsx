@@ -9,11 +9,7 @@ export const loader = ({ request }: LoaderFunctionArgs) => {
 export default function HomePage() {
     return (
         <div className={styles.root}>
-            <h2 className={styles.title}>Welcome To App Homepage 🎉</h2>
-            <span className={styles.paragraph}>
-                Drag here elements from the Add Elements Panel
-                <br /> and style them using the Styles panel
-            </span>
+            <h2 className={styles.title}></h2>
         </div>
     );
 }
