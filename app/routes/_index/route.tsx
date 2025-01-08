@@ -18,7 +18,7 @@ export default function HomePage() {
                     <br />
                     <label>Password:</label>
                     <br />
-                    <input type="text" />
+                    <input type="text" className={styles0.input2} />
                     <br />
                     <br />
                     <input type="submit" value="Submit" />
