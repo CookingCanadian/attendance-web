@@ -1,3 +1,24 @@
 .input1 {
     border-bottom: 2px solid black;
 }
+.form1 {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.loginHolder {
+    width: 20%;
+    height: 50%;
+    position: absolute;
+    top: 25%;
+    left: 35%;
+    background-color: #ffffff;
+    border: 0px solid black;
+    border-radius: 20px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}

@@ -10,19 +10,20 @@ export const loader = ({ request }: LoaderFunctionArgs) => {
 export default function HomePage() {
     return (
         <div className={styles.root}>
-            <div></div>
-            <form>
-                <label>Email:</label>
-                <br />
-                <input type="text" className={styles0.input1} />
-                <br />
-                <label>Password:</label>
-                <br />
-                <input type="text" />
-                <br />
-                <br />
-                <input type="submit" value="Submit" />
-            </form>
+            <div className={styles0.loginHolder}>
+                <form className={styles0.form1}>
+                    <label>Email:</label>
+                    <br />
+                    <input type="text" className={styles0.input1} />
+                    <br />
+                    <label>Password:</label>
+                    <br />
+                    <input type="text" />
+                    <br />
+                    <br />
+                    <input type="submit" value="Submit" />
+                </form>
+            </div>
         </div>
     );
 }
