@@ -11,19 +11,21 @@ export default function HomePage() {
     return (
         <div className={styles.root}>
             <div className={styles0.loginHolder}>
+                <h1 className={styles0.header1}>Welcome</h1>
+                <br />
                 <form className={styles0.form1}>
-                    <label>Email:</label>
+                    <label></label>
                     <br />
-                    <input type="text" className={styles0.input1} />
+                    <input type="text" className={styles0.input1} placeholder="Email" />
                     <br />
-                    <label>Password:</label>
+                    <label></label>
+                    <input type="text" className={styles0.input1} placeholder="Password" />
                     <br />
-                    <input type="text" className={styles0.input1} />
                     <br />
-                    <br />
-                    <input type="submit" value="Submit" />
+                    <input type="submit" value="Login" className={styles0.input3} />
                 </form>
             </div>
+            <p>This is a paragraph.</p>
         </div>
     );
 }

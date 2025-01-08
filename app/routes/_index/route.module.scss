@@ -12,7 +12,7 @@
     align-items: center;
 }
 .loginHolder {
-    width: 20%;
+    width: 25%;
     height: 50%;
     position: absolute;
     top: 25%;
@@ -24,8 +24,20 @@
     align-content: center;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    box-shadow: 0.71px 0.71px 21px rgba(77, 58, 58, 0.27);
+    opacity: 1;
 }
 .input2 {
     border: 2px solid black;
     border-top: 0px solid black;
+}
+.header1 {
+    font-size: 24px;
+}
+.input3 {
+    background-color: #7a3041;
+    color: #ffffff;
+    border: 2px solid #7a3041;
+    border-radius: 6px;
 }
