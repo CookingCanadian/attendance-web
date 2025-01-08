@@ -1,5 +1,8 @@
 .input1 {
-    border-bottom: 2px solid black;
+    border-bottom: 1px solid black;
+    border-top: 0px solid black;
+    border-left: 0px solid black;
+    border-right: 0px solid black;
 }
 .form1 {
     width: 100%;
@@ -21,4 +24,10 @@
     align-content: center;
     justify-content: center;
     align-items: center;
+}
+.input2 {
+    border: 0px solid black;
+    border-left: 0px solid black;
+    border-right: 0px solid black;
+    border-bottom: 1px solid black;
 }
