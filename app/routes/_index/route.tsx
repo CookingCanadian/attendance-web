@@ -1,6 +1,7 @@
 import { LinksFunction, LoaderFunctionArgs, MetaFunction } from '@remix-run/node';
 import { getUrlOriginWithPath } from '~/utils';
 import styles from './_index.module.scss';
+import styles0 from './route.module.scss';
 
 export const loader = ({ request }: LoaderFunctionArgs) => {
     return { canonicalUrl: getUrlOriginWithPath(request.url) };
@@ -11,11 +12,11 @@ export default function HomePage() {
         <div className={styles.root}>
             <div></div>
             <form>
-                <label>Fhurlafhdhadskfknc:</label>
+                <label>Email:</label>
                 <br />
-                <input type="text" />
+                <input type="text" className={styles0.input1} />
                 <br />
-                <label>hhhhhhfiuastrhvnioen5tso7wn5h8:</label>
+                <label>Password:</label>
                 <br />
                 <input type="text" />
                 <br />
