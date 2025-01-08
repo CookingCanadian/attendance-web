@@ -22,6 +22,7 @@ export default function HomePage() {
                     <br />
                     <br />
                     <input type="submit" value="Submit" />
+                    <a href="app/routes/sign-in-out/route.tsx">Banana</a>
                 </form>
             </div>
         </div>
