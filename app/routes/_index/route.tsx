@@ -4,14 +4,12 @@ import styles from './_index.module.scss';
 import styles0 from './route.module.scss';
 import { Link } from 'react-router-dom';
 
-
 export const loader = ({ request }: LoaderFunctionArgs) => {
     return { canonicalUrl: getUrlOriginWithPath(request.url) };
 };
 
 export default function HomePage() {
     return (
-        
         <div className={styles.root}>
             <div className={styles0.loginHolder}>
                 <form className={styles0.form1}>
@@ -24,8 +22,9 @@ export default function HomePage() {
                     <input type="text" className={styles0.input1} />
                     <br />
                     <br />
-                    <input type="submit" value="Submit" />
-                    <Link to="/sign-in-out">Sign In/Out</Link>
+                    <Link to="/sign-in-out" className={styles0.link}>
+                        Sign In/Out
+                    </Link>
                 </form>
             </div>
         </div>
