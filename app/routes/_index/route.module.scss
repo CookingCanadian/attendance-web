@@ -14,11 +14,10 @@
     justify-content: space-between;
 }
 .loginHolder {
-    width: 25%;
+    width: 20%;
     height: 50%;
     position: absolute;
     top: 25%;
-    left: 35%;
     background-color: #ffffff;
     border: 0px solid black;
     border-radius: 20px;
@@ -30,6 +29,7 @@
     box-shadow: 0.71px 0.71px 21px rgba(77, 58, 58, 0.27);
     opacity: 1;
     padding: 20px;
+    left: 40%;
 }
 .input2 {
     border: 2px solid black;
