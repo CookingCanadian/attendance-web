@@ -14,7 +14,6 @@
     justify-content: space-between;
 }
 .loginHolder {
-    width: 20%;
     height: 50%;
     position: absolute;
     top: 25%;
@@ -30,14 +29,15 @@
     opacity: 1;
     padding: 20px;
     left: 40%;
+    width: 24%;
 }
 .input2 {
     border: 2px solid black;
     border-top: 0px solid black;
 }
 .header1 {
-    width: 100%;
     font-size: 40px;
+    width: 1000%;
 }
 .input3 {
     background-color: #7a3041;
@@ -58,13 +58,13 @@
     flex-wrap: nowrap;
     align-items: center;
     background-color: #f7f7f7;
-    width: 80px;
     height: 80px;
     border-radius: 20px;
     overflow: hidden;
     justify-content: center;
     padding: 10px;
     margin: 10px;
+    width: 50px;
 }
 .link {
     background-color: #7b3434;
