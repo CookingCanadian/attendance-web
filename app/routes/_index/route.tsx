@@ -24,6 +24,11 @@ export default function HomePage() {
                     <br />
                 </form>
                 <input type="submit" value="Login" className={styles0.input3} />
+                <div className={styles0.div2}>
+                    <div className={styles0.line}></div>
+                    <span className={styles0.span1}>or login with</span>
+                    <div className={styles0.line} />
+                </div>
                 <div className={styles0.div1}>
                     <img
                         src="https://lh3.googleusercontent.com/COxitqgJr1sJnIDe8-jiKhxDx1FrYbtRHKJ9z_hELisAlapwE9LUPh6fcXIfb5vwpbMl4xl9H9TRFPc5NOO8Sb3VSgIBrfRYvW6cUA"
