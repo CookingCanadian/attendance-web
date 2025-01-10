@@ -11,6 +11,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-between;
 }
 .loginHolder {
     width: 25%;
@@ -28,14 +29,15 @@
     flex-direction: column;
     box-shadow: 0.71px 0.71px 21px rgba(77, 58, 58, 0.27);
     opacity: 1;
+    padding: 20px;
 }
 .input2 {
     border: 2px solid black;
     border-top: 0px solid black;
 }
 .header1 {
-    font-size: 24px;
     width: 100%;
+    font-size: 40px;
 }
 .input3 {
     background-color: #7a3041;
@@ -43,10 +45,11 @@
     border: 2px solid #7a3041;
     border-radius: 6px;
     width: 50%;
+    height: 10%;
 }
 .img1 {
-    width: 25%;
     align-content: start;
+    width: 80%;
 }
 .div1 {
     align-self: center;
@@ -54,4 +57,12 @@
     flex-direction: column;
     flex-wrap: nowrap;
     align-items: center;
+    background-color: #f7f7f7;
+    width: 80px;
+    height: 80px;
+    border-radius: 20px;
+    overflow: hidden;
+    justify-content: center;
+    padding: 10px;
+    margin: 10px;
 }
