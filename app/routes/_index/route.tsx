@@ -22,8 +22,15 @@ export default function HomePage() {
                     <input type="text" className={styles0.input1} placeholder="Password" />
                     <br />
                     <br />
-                    <input type="submit" value="Login" className={styles0.input3} />
                 </form>
+                <input type="submit" value="Login" className={styles0.input3} />
+                <div className={styles0.div1}>
+                    <img
+                        src="https://lh3.googleusercontent.com/COxitqgJr1sJnIDe8-jiKhxDx1FrYbtRHKJ9z_hELisAlapwE9LUPh6fcXIfb5vwpbMl4xl9H9TRFPc5NOO8Sb3VSgIBrfRYvW6cUA"
+                        alt=""
+                        className={styles0.img1}
+                    />
+                </div>
             </div>
             <p>This is a paragraph.</p>
         </div>
